@@ -1,0 +1,17 @@
+## Run command
+
+```
+$ docker run -d -p 9200:9200 -v //E/src/es/elasticsearch/settings/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml --name es docker.elastic.co/elasticsearch/elasticsearch:5.5.2
+```
+
+## Follow logs
+
+```
+$ docker logs -f es
+```
+
+## Pull images
+
+```
+$ docker pull docker.elastic.co/elasticsearch/elasticsearch:5.5.2
+```
