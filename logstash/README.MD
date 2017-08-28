@@ -1,12 +1,12 @@
 ## Run
 
-### Only heartbeat.conf
+### heartbeat.conf
 
 ```
 $ docker run -v //E/src/es/logstash/pipelines/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it -p 9600:9600 docker.elastic.co/logstash/logstash:5.5.2
 ```
 
-### Only jdbc.conf
+### jdbc.conf
 
 ```
 $ docker run -v //E/src/es/logstash/jdbc/sqljdbc42.jar:/usr/share/logstash/jdbc_driver/sqljdbc42.jar -v //E/src/es/logstash/pipelines/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it -p 9600:9600 docker.elastic.co/logstash/logstash:5.5.2
@@ -15,7 +15,7 @@ $ docker run -v //E/src/es/logstash/jdbc/sqljdbc42.jar:/usr/share/logstash/jdbc_
 ## Pull images
 
 ```
-`$ docker pull docker.elastic.co/logstash/logstash:5.5.2
+$ docker pull docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ## JDBC Setup
