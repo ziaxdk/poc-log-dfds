@@ -1,0 +1,5 @@
+server.name: test
+server.host: "0"
+elasticsearch.url: http://elasticsearch:9200
+xpack.monitoring.ui.container.elasticsearch.enabled: false
+xpack.monitoring.enabled: false
