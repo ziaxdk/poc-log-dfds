@@ -18,6 +18,12 @@ $ docker run -v //E/src/es/logstash/jdbc/sqljdbc42.jar:/usr/share/logstash/jdbc_
 $ docker run -v //E/src/es/logstash/pipelines/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch -p 8080:8080/udp -p 9600:9600 docker.elastic.co/logstash/logstash:5.5.2
 ```
 
+### udp.conf with custom template
+
+```
+$ docker run //E/src/es/logstash/settings/custom_template.json:/usr/share/logstash/config/custom_template.json -v //E/src/es/logstash/pipelines/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch -p 8080:8080/udp -p 9600:9600 docker.elastic.co/logstash/logstash:5.5.2
+```
+
 ## Pull images
 
 ```
