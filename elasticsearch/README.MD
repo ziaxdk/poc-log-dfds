@@ -15,3 +15,12 @@ $ docker logs -f es
 ```
 $ docker pull docker.elastic.co/elasticsearch/elasticsearch:5.5.2
 ```
+
+## ES commands
+
+### List all indices
+
+```
+$ http://localhost:9200/_cat/indices?v
+```
+

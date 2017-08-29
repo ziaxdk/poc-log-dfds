@@ -1,0 +1,427 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"filename"
+			],
+			[
+				"con",
+				"configMaxAge"
+			],
+			[
+				"sa",
+				"save"
+			],
+			[
+				"re",
+				"resolve"
+			],
+			[
+				"save",
+				"saveAndPush"
+			],
+			[
+				"g",
+				"green"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"da",
+				"dateFns"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"Da",
+				"dateFns"
+			],
+			[
+				"_",
+				"_config"
+			],
+			[
+				"tpy",
+				"typeConst"
+			],
+			[
+				"from",
+				"fromService"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"text",
+				"textChanged"
+			],
+			[
+				"trh",
+				"tThird"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "GIT\n\nBranch\n- git checkout -b [NAME]\n\nDelete local branch\n- git branch -d [NAME]\n\nAmend\n- git commit --amend / :wq in vim\n- git push origin [TARGET] -f\n\n\n\n\nkmd (web-tid)\n- Start cisco receiver\n- keols / Hon***t****01\n\ntimereg http://timereg/Log.aspx\n- klik fra og til dato\n- vælg 6,5 timer\n- klik submit\n\n\n\n\n\n\nDI.fm\nPete Silver - Beyond The Blue Sky (Original Mix)\n\n\n",
+			"settings":
+			{
+				"buffer_size": 367,
+				"line_ending": "Windows",
+				"name": "GIT"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "set",
+		"selected_items":
+		[
+			[
+				"set",
+				"Set Syntax: C#"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/src/es"
+	],
+	"file_history":
+	[
+		"/E/src/es/kibana/README.MD",
+		"/E/src/es/kibana/settings/kibana.yml",
+		"/E/src/es/README.MD",
+		"/E/src/es/elasticsearch/README.MD",
+		"/E/src/es/elasticsearch/settings/elasticsearch.yml",
+		"/E/src/es/logstash/settings/logstash.yml",
+		"/E/src/es/logstash/README.MD",
+		"/E/src/es/logstash/pipelines/jdbc.conf",
+		"/E/src/es/logstash/pipelines/dummy.conf",
+		"/C/Users/keols/Downloads/feed.kml",
+		"/C/Users/keols/Downloads/feed-MartinHerlv.kml",
+		"/E/src/es/logstash/settings/log4j2.properties",
+		"/E/src/es/elasticsearch.yml",
+		"/E/src/scrape-vessels/index.js",
+		"/E/src/scrape-vessels/package.json",
+		"/E/src/scrape-vessels/pkg/package.json",
+		"/E/src/scrape-vessels/pkg/index.js",
+		"/E/src/scrape-vessels/app/index.js",
+		"/E/src/scrape-vessels/package-lock.json",
+		"/E/src/scrape-vessels/ladya.log",
+		"/E/src/scrape-vessels/fair.log",
+		"/E/src/scrape-vessels/.gitignore",
+		"/C/Users/keols/Downloads/afmaerkning_03.svg",
+		"/E/src/scrape-vessels/functions.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/package.json",
+		"/E/src/scrape-vessels/double-joy.log",
+		"/E/src/scrape-vessels/play.js",
+		"/C/Users/keols/Downloads/evennode.pem",
+		"/C/Users/keols/Desktop/LadyA/LADYA.log",
+		"/E/src/scrape-vessels/node_modules/date-fns/index.js",
+		"/E/src/scrape-vessels/node_modules/date-fns/package.json",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/md5/.travis.yml",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/md5/md5.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/md5/package.json",
+		"/E/src/scrape/.git/config",
+		"/E/src/scrape/.gitignore",
+		"/E/src/scrape/index.js",
+		"/E/src/scrape/ladya.log",
+		"/E/src/scrape/package.json",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/src/app/app.module.ts",
+		"/E/src/ng2test/package.json",
+		"/E/src/tile/package.json",
+		"/C/Users/keols/Downloads/qatar.mbtiles",
+		"/C/Users/keols/Downloads/threejs_logo_example/threejs_logo_example/models/treehouse_logo.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBook.WebFacade.Web/Areas/Reservation/ReservationController.cs",
+		"/E/src/vue/vvv/test/e2e/custom-assertions/elementCount.js",
+		"/E/src/vue/vvv/test/e2e/specs/test.js",
+		"/E/src/vue/vvv/test/e2e/nightwatch.conf.js",
+		"/E/src/vue/vvv/package.json",
+		"/C/Users/keols/Downloads/14ZHJNCMY6.txt",
+		"/E/test.ts",
+		"/E/test.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/tslint.json",
+		"/E/src/Seabook/BuildType/LocalMSbuild.bat",
+		"/E/src/Seabook/BuildType/PreBuildScript.bat",
+		"/E/src/Seabook/BuildType/SetupCoreForWeb.ps1",
+		"/E/src/sb-test/BuildType/LocalMSbuild.bat",
+		"/E/src/sb-test/BuildType/LocalBuild.bat",
+		"/E/src/codekata20170602/protractor.conf.js",
+		"/E/src/codekata20170602/.angular-cli.json",
+		"/E/src/codekata20170602/package.json",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/proxy.conf.json",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/karma.conf.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/tsconfig.json",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/webpack-mvc.config.js",
+		"/E/src/vue/scaff/dist/build.js",
+		"/E/src/vue/scaff/package.json",
+		"/E/src/vue/scaff/.git/config",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/README.md",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/Gruntfile.js",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/config.example.js",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/images/README.md",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/data/README.md",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/apps/README.md",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/themes/casper/default.hbs",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/themes/casper/index.hbs",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/themes/casper/partials/loop.hbs",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/themes/casper/partials/navigation.hbs",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/themes/casper/README.md",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/content/themes/casper/page.hbs",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/core/server/ghost-server.js",
+		"/C/Users/keols/Downloads/Ghost-0.11.9/core/index.js",
+		"/E/src/vue/webpack/src/App.vue",
+		"/E/src/vue/webpack/src/t-sub.vue",
+		"/E/src/vue/webpack/src/t-main.vue",
+		"/E/src/vue/webpack/src/main.js",
+		"/E/src/vue/webpack/src/basic-service.js",
+		"/E/src/vue/raw/app.js",
+		"/E/src/vue/webpack/src/t-third.vue",
+		"/E/src/vue/webpack/src/t-master.vue",
+		"/E/src/vue/webpack/src/components/Hello.vue",
+		"/E/src/vue/webpack/.postcssrc.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/lodash.isequal/README.md",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/lodash.isequal/index.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/lodash.isequal/package.json",
+		"/E/src/index.js",
+		"/E/src/ng2test/src/app/ngmodeltest2/ngmodeltest2.component.html",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/gulpfile.js",
+		"/E/src/ng2test/src/app/ngmodeltest2/ngmodeltest2.component.ts",
+		"/E/src/vue/webpack/package.json",
+		"/E/src/vue/raw/index.html",
+		"/E/src/vue/raw/package.json",
+		"/E/src/ng2test/src/app/app.module.ts",
+		"/E/src/ng2test/src/index.html",
+		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengerItemComponent.html",
+		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersComponent.html",
+		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersComponent.scss",
+		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersService.ts",
+		"/C/Users/keols/Downloads/Digitally Imported - Favorites.pls",
+		"/C/Users/keols/Downloads/ne_10m_ports/ne_10m_ports.dbf",
+		"/C/Users/keols/Downloads/meals.model.spec-data.ts",
+		"/E/src/SeabookWebServices/Dfds.SeaBook.WebFacade.Web/AppSettings.Local.config",
+		"/C/Users/keols/Downloads/SetupWeb.bat",
+		"/C/Users/keols/Downloads/map.osm",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/src/console.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/src/core.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/index.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@types/deep-diff/index.d.ts",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/deep-diff/index.js",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/deep-diff/package.json",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/moment/package.json",
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/moment/package.js",
+		"/E/src/vue/test00/test/unit/index.js",
+		"/E/src/vue/test00/test/unit/karma.conf.js",
+		"/E/src/vue/test00/package.json",
+		"/E/src/vue/test00/test/e2e/specs/test.js",
+		"/E/src/vue/test00/test/unit/specs/Hello.spec.js",
+		"/E/src/vue/test00/src/components/Hello.vue"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"string",
+			"ex",
+			"host",
+			"allXml",
+			"Hondast110002",
+			"\\",
+			"config.vessels.",
+			"config.vessels",
+			"h1",
+			"mounted",
+			"index",
+			"module",
+			"main",
+			"clean",
+			"\\",
+			"user"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"auto_name": "GIT",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "POC.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
