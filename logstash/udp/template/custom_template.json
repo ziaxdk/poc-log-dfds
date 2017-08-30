@@ -7,17 +7,32 @@
 	"mappings": {
 		"udp_event": {
 			"properties" : {
+				"exceptionType": {
+					"type": "keyword"
+				},
+				"hostname": {
+					"type": "keyword"
+				},
 	        	"@timestamp" : {
 	            	"type" : "date"
 	          	},
+				"level": {
+					"type": "keyword"
+				},
+				"logger": {
+					"type": "keyword"
+				},
 	        	"@version" : {
 	            	"type" : "keyword"
 	          	},
 	        	"host" : {
 	            	"type" : "ip"
 	          	},
-	        	"message" : {
-	            	"type" : "keyword"
+	        	"thread" : {
+	            	"type" : "integer"
+	          	},
+	        	"detail" : {
+	            	"type" : "text"
 	          	}
 	        }
 	    }

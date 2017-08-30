@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -20,16 +21,70 @@ namespace MostDummiestAppEver
         static void Main(string[] args)
         {
             XmlConfigurator.Configure();
+            ThreadContext.Properties["hostname"] = HostName;
 
-            Console.WriteLine("Press Q to quit and any key to send an UDP event");
-            var key = Console.ReadKey(false);
-            var i = 0;
-            while (key.Key != ConsoleKey.Q)
+            Console.WriteLine("Press Q to quit");
+            Console.WriteLine("Press S to info");
+            Console.WriteLine("Press E to fail randomly");
+            Console.WriteLine("Press C to clear screen");
+            while (true)
             {
-                Log.Info("UDP event sent: "+ (++i).ToString("D3"));
-                key = Console.ReadKey();
+                var key = Console.ReadKey(true);
+                switch (key.Key)
+                {
+                    case ConsoleKey.Q: return;
+                    case ConsoleKey.S: SendEvent(DateTime.UtcNow); break;
+                    case ConsoleKey.E: FailRandom(DateTime.UtcNow); break;
+                    case ConsoleKey.C: Console.Clear(); break;
+                    case ConsoleKey.B: BulkFailRandomly(1000); break;
+                }
             }
         }
 
+        private static int _sendEventCount = 0;
+        private static void SendEvent(DateTime mockTime)
+        {
+            ThreadContext.Properties["exceptionType"] = "-";
+            ThreadContext.Properties["mockTime"] = mockTime.ToString("o");
+            Log.Info("UDP event sent: " + (++_sendEventCount).ToString("D3"));
+        }
+
+        private static readonly Type[] ExceptionTypes = new[]
+        {
+            typeof(ArgumentNullException), typeof(InvalidOperationException), typeof(NotImplementedException),
+            typeof(NotSupportedException)
+        };
+
+        private static void FailRandom(DateTime mockTime)
+        {
+            try
+            {
+                var exceptionType = ExceptionTypes[new Random().Next(0, ExceptionTypes.Length)];
+                throw (Exception)Activator.CreateInstance(exceptionType);
+            }
+            catch (Exception ex)
+            {
+                ThreadContext.Properties["exceptionType"] = ex.GetType().FullName;
+                ThreadContext.Properties["mockTime"] = mockTime.ToString("o");
+                Log.Error("Unhandled exception", ex);
+            }
+        }
+
+        private static void BulkFailRandomly(int count)
+        {
+            var today = DateTime.UtcNow.Date;
+            var span = today.AddDays(7).AddMilliseconds(-1).Ticks - today.Ticks;
+
+            Console.WriteLine($"Starting bulking {count} exceptions");
+            for (var i = 0; i < count; i++)
+            {
+                var pick = new Random(i).NextLong(0, span, true);
+                var date = today.AddTicks(pick);
+                FailRandom(date);
+            }
+            Console.WriteLine("Done...");
+        }
+
+        private static string HostName => Dns.GetHostName();
     }
 }
