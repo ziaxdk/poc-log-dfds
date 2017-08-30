@@ -26,6 +26,7 @@ namespace MostDummiestAppEver
             Console.WriteLine("Press Q to quit");
             Console.WriteLine("Press S to info");
             Console.WriteLine("Press E to fail randomly");
+            Console.WriteLine("Press B to bulk 1000 fail with 7 days period randomly");
             Console.WriteLine("Press C to clear screen");
             while (true)
             {
