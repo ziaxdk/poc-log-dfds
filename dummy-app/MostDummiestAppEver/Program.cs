@@ -50,18 +50,14 @@ namespace MostDummiestAppEver
             Log.Info("UDP event sent: " + (++_sendEventCount).ToString("D3"));
         }
 
-        private static readonly Type[] ExceptionTypes = new[]
-        {
-            typeof(ArgumentNullException), typeof(InvalidOperationException), typeof(NotImplementedException),
-            typeof(NotSupportedException)
-        };
+        private static readonly Exception[] Exceptions = { new ArgumentNullException(), new InvalidOperationException(), new NotSupportedException(), new NotImplementedException(), };
 
         private static void FailRandom(DateTime mockTime)
         {
             try
             {
-                var exceptionType = ExceptionTypes[new Random().Next(0, ExceptionTypes.Length)];
-                throw (Exception)Activator.CreateInstance(exceptionType);
+                var exception = Exceptions[new Random().Next(0, Exceptions.Length)];
+                throw exception;
             }
             catch (Exception ex)
             {
