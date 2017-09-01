@@ -70,7 +70,7 @@ namespace MostDummiestAppEver
         private static void BulkFailRandomly(int count)
         {
             var today = DateTime.UtcNow.Date;
-            var span = today.AddDays(7).AddMilliseconds(-1).Ticks - today.Ticks;
+            var span = today.AddDays(-7).AddMilliseconds(1).Ticks - today.Ticks;
 
             Console.WriteLine($"Starting bulking {count} exceptions");
             for (var i = 0; i < count; i++)
