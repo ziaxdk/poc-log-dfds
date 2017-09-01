@@ -3,13 +3,13 @@
 ### heartbeat.conf
 
 ```
-$ docker run -v //E/src/es/logstash/pipelines/heartbeat/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //E/src/poc-log-dfds/logstash/heartbeat/pipeline/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ### jdbc.conf
 
 ```
-$ docker run -v //E/src/es/logstash/jdbc/sqljdbc42.jar:/usr/share/logstash/jdbc_driver/sqljdbc42.jar -v //E/src/es/logstash/pipelines/jdbc/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //E/src/poc-log-dfds/logstash/jdbc/sqljdbc42.jar:/usr/share/logstash/jdbc_driver/sqljdbc42.jar -v //E/src/poc-log-dfds/logstash/jdbc/pipeline/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ## Single instance
@@ -17,13 +17,13 @@ $ docker run -v //E/src/es/logstash/jdbc/sqljdbc42.jar:/usr/share/logstash/jdbc_
 ### udp.conf
 
 ```
-$ docker run -v //E/src/es/logstash/pipelines/udp/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch -p 8080:8080/udp docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //E/src/poc-log-dfds/logstash/udp/single_wo_template/pipeline/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch -p 8080:8080/udp docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ### udp.conf with custom template
 
 ```
-$ docker run -v //E/src/es/logstash/udp/template/custom_template.json:/usr/share/logstash/config/custom_template.json -v //E/src/es/logstash/udp/pipeline:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch -p 8080:8080/udp docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //E/src/poc-log-dfds/logstash/udp/single_w_template/template/custom_template.json:/usr/share/logstash/config/custom_template.json -v //E/src/poc-log-dfds/logstash/udp/single_w_template/pipeline/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it --link es:elasticsearch -p 8080:8080/udp docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ## multiple instances
@@ -31,13 +31,13 @@ $ docker run -v //E/src/es/logstash/udp/template/custom_template.json:/usr/share
 ### udp.conf local->forwarder
 
 ```
-$ docker run -v //E/src/es/logstash/udp/multiple/pipeline_1/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls-tcp_1 --rm -it --link ls-tcp_2:tcp-in-ls -p 8080:8080/udp docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //E/src/poc-log-dfds/logstash/udp/multiple/pipeline_1/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls-tcp_1 --rm -it --link ls-tcp_2:tcp-in-ls -p 8080:8080/udp docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ### udp.conf forwarder->elasticsearch
 
 ```
-$ docker run -v //E/src/es/logstash/udp/multiple/pipeline_2/:/usr/share/logstash/pipeline/ -v //E/src/es/logstash/settings/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls-tcp_2 --rm -it docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //E/src/poc-log-dfds/logstash/udp/multiple/pipeline_2/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml -v //E/src/poc-log-dfds/logstash/udp/multiple/template/custom_template.json:/usr/share/logstash/config/custom_template.json --name ls-tcp_2 --link es:elasticsearch --rm -it docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ## Pull images

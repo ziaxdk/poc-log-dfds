@@ -72,38 +72,12 @@
 	"buffers":
 	[
 		{
-			"contents": "GIT\n\nBranch\n- git checkout -b [NAME]\n\nDelete local branch\n- git branch -d [NAME]\n\nAmend\n- git commit --amend / :wq in vim\n- git push origin [TARGET] -f\n\n\n\n\nkmd (web-tid)\n- Start cisco receiver\n- keols / Hon***t****01\n\ntimereg http://timereg/Log.aspx\n- klik fra og til dato\n- vælg 6,5 timer\n- klik submit\n\n\n\n\n\n\nDI.fm\nPete Silver - Beyond The Blue Sky (Original Mix)\nDarren Porter - Sparkles (Original Mix)\n\n\n",
+			"contents": "GIT\n\nBranch\n- git checkout -b [NAME]\n\nDelete local branch\n- git branch -d [NAME]\n\nAmend\n- git commit --amend / :wq in vim\n- git push origin [TARGET] -f\n\n\n\n\nkmd (web-tid)\n- Start cisco receiver\n- keols / Hon***t****02\n\ntimereg http://timereg/Log.aspx\n- klik fra og til dato\n- vælg 6,5 timer\n- klik submit\n\n\n\n\n\n\nDI.fm\nPete Silver - Beyond The Blue Sky (Original Mix)\nDarren Porter - Sparkles (Original Mix)\nReOrder & Sue McLaren - Hands Of Time (Original Mix) (Edit)\n",
 			"settings":
 			{
-				"buffer_size": 407,
+				"buffer_size": 465,
 				"line_ending": "Windows",
 				"name": "GIT"
-			}
-		},
-		{
-			"file": "logstash/README.MD",
-			"settings":
-			{
-				"buffer_size": 1837,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/keols/Downloads/logstash-5.5.2/logstash-5.5.2/bin/logstash.bat",
-			"settings":
-			{
-				"buffer_size": 677,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "logstash/udp/pipeline/udp.conf",
-			"settings":
-			{
-				"buffer_size": 722,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -152,19 +126,27 @@
 	"expanded_folders":
 	[
 		"/E/src/es",
+		"/E/src/es/elasticsearch/settings",
+		"/E/src/es/kibana/settings",
 		"/E/src/es/logstash",
-		"/E/src/es/logstash/pipelines",
 		"/E/src/es/logstash/udp",
-		"/E/src/es/logstash/udp/pipeline",
-		"/E/src/es/logstash/udp/template"
+		"/E/src/es/logstash/udp/multiple",
+		"/E/src/es/logstash/udp/multiple/pipeline_1",
+		"/E/src/es/logstash/udp/multiple/pipeline_2",
+		"/E/src/es/logstash/udp/pipeline"
 	],
 	"file_history":
 	[
+		"/E/src/es/logstash/udp/multiple/pipeline_1/tcp_1.conf",
+		"/E/src/es/logstash/README.MD",
+		"/E/src/es/logstash/udp/multiple/pipeline_2/tcp_2.conf",
+		"/E/src/es/logstash/udp/multiple/pipeline/udp.conf",
+		"/E/src/es/logstash/udp/pipeline/udp.conf",
 		"/E/src/es/logstash/udp/template/custom_template.json",
+		"/C/Users/keols/Downloads/logstash-5.5.2/logstash-5.5.2/bin/logstash.bat",
 		"/E/src/es/logstash/settings/logstash.yml",
 		"/E/src/es/logstash/pipelines/udp/custom_template.json",
 		"/E/src/es/logstash/pipelines/udp/udp.conf",
-		"/E/src/es/logstash/README.MD",
 		"/E/src/es/logstash/settings/custom_template.json",
 		"/E/src/es/logstash/pipelines/udp.conf",
 		"/E/src/es/logstash/settings/log4j2.properties",
@@ -282,12 +264,7 @@
 		"/C/Users/keols/Downloads/SetupWeb.bat",
 		"/C/Users/keols/Downloads/map.osm",
 		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/src/console.js",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/src/core.js",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/index.js",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@types/deep-diff/index.d.ts",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/deep-diff/index.js",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/deep-diff/package.json",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/moment/package.json"
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/src/core.js"
 	],
 	"find":
 	{
@@ -341,7 +318,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -349,109 +326,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 407,
+						"buffer_size": 465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								405,
-								405
+								465,
+								465
 							]
 						],
 						"settings":
 						{
 							"auto_name": "GIT",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "logstash/README.MD",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1837,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								966,
-								1334
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/keols/Downloads/logstash-5.5.2/logstash-5.5.2/bin/logstash.bat",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 677,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "logstash/udp/pipeline/udp.conf",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								7
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -469,7 +358,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
