@@ -71,15 +71,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "GIT\n\nBranch\n- git checkout -b [NAME]\n\nDelete local branch\n- git branch -d [NAME]\n\nAmend\n- git commit --amend / :wq in vim\n- git push origin [TARGET] -f\n\n\n\n\nkmd (web-tid)\n- Start cisco receiver\n- keols / Hon***t****02\n\ntimereg http://timereg/Log.aspx\n- klik fra og til dato\n- vælg 6,5 timer\n- klik submit\n\n\n\n\n\n\nDI.fm\nPete Silver - Beyond The Blue Sky (Original Mix)\nDarren Porter - Sparkles (Original Mix)\nReOrder & Sue McLaren - Hands Of Time (Original Mix) (Edit)\n",
-			"settings":
-			{
-				"buffer_size": 465,
-				"line_ending": "Windows",
-				"name": "GIT"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -125,18 +116,22 @@
 	},
 	"expanded_folders":
 	[
-		"/E/src/es",
-		"/E/src/es/elasticsearch/settings",
-		"/E/src/es/kibana/settings",
-		"/E/src/es/logstash",
-		"/E/src/es/logstash/udp",
-		"/E/src/es/logstash/udp/multiple",
-		"/E/src/es/logstash/udp/multiple/pipeline_1",
-		"/E/src/es/logstash/udp/multiple/pipeline_2",
-		"/E/src/es/logstash/udp/pipeline"
+		"/E/src/poc-log-dfds",
+		"/E/src/poc-log-dfds/logstash",
+		"/E/src/poc-log-dfds/logstash/heartbeat/pipeline",
+		"/E/src/poc-log-dfds/logstash/udp",
+		"/E/src/poc-log-dfds/logstash/udp/multiple",
+		"/E/src/poc-log-dfds/logstash/udp/multiple/pipeline_1"
 	],
 	"file_history":
 	[
+		"/E/src/poc-log-dfds/elasticsearch/README.MD",
+		"/E/src/poc-log-dfds/logstash/logstash.yml",
+		"/E/src/poc-log-dfds/kibana/settings/kibana.yml",
+		"/E/src/poc-log-dfds/kibana/README.MD",
+		"/E/src/poc-log-dfds/logstash/README.MD",
+		"/E/src/poc-log-dfds/elasticsearch/elasticsearch.yml",
+		"/C/Users/keols/Desktop/DOC.txt",
 		"/E/src/es/logstash/udp/multiple/pipeline_1/tcp_1.conf",
 		"/E/src/es/logstash/README.MD",
 		"/E/src/es/logstash/udp/multiple/pipeline_2/tcp_2.conf",
@@ -257,14 +252,7 @@
 		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersComponent.html",
 		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersComponent.scss",
 		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersService.ts",
-		"/C/Users/keols/Downloads/Digitally Imported - Favorites.pls",
-		"/C/Users/keols/Downloads/ne_10m_ports/ne_10m_ports.dbf",
-		"/C/Users/keols/Downloads/meals.model.spec-data.ts",
-		"/E/src/SeabookWebServices/Dfds.SeaBook.WebFacade.Web/AppSettings.Local.config",
-		"/C/Users/keols/Downloads/SetupWeb.bat",
-		"/C/Users/keols/Downloads/map.osm",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/src/console.js",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/@angular/core/src/core.js"
+		"/C/Users/keols/Downloads/Digitally Imported - Favorites.pls"
 	],
 	"find":
 	{
@@ -282,6 +270,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\",
+			"false",
 			"\\",
 			" -p 9600:9600",
 			"string",
@@ -318,37 +308,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								465,
-								465
-							]
-						],
-						"settings":
-						{
-							"auto_name": "GIT",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

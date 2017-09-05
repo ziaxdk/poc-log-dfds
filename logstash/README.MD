@@ -3,7 +3,7 @@
 ### heartbeat.conf
 
 ```
-$ docker run -v //E/src/poc-log-dfds/logstash/heartbeat/pipeline/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --rm -it docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //E/src/poc-log-dfds/logstash/heartbeat/pipeline/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls --link es:elasticsearch --rm -it docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ### jdbc.conf
