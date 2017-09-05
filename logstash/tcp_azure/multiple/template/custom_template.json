@@ -1,0 +1,40 @@
+{
+	"template": "dummyapp-*",
+	"settings": {
+		"number_of_shards" : "1",
+		"number_of_replicas" : "0"
+	},
+	"mappings": {
+		"udp_event": {
+			"properties" : {
+				"exceptionType": {
+					"type": "keyword"
+				},
+				"hostname": {
+					"type": "keyword"
+				},
+	        	"@timestamp" : {
+	            	"type" : "date"
+	          	},
+				"level": {
+					"type": "keyword"
+				},
+				"logger": {
+					"type": "keyword"
+				},
+	        	"@version" : {
+	            	"type" : "keyword"
+	          	},
+	        	"host" : {
+	            	"type" : "ip"
+	          	},
+	        	"thread" : {
+	            	"type" : "integer"
+	          	},
+	        	"detail" : {
+	            	"type" : "text"
+	          	}
+	        }
+	    }
+	}
+}

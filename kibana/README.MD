@@ -9,7 +9,7 @@ $ docker run -d -v //E/src/poc-log-dfds/kibana/settings/kibana.yml:/usr/share/ki
 ### Azure
 
 ```
-$ docker run -d -v //home/keols/poc-log-dfds/kibana/settings/kibana_azure.yml:/usr/share/kibana/config/kibana.yml --link es:elasticsearch --name kb -p 5601:5601 docker.elastic.co/kibana/kibana:5.5.2
+$ docker run -d -v //home/keols/poc-log-dfds/kibana/settings/kibana_azure.yml:/usr/share/kibana/config/kibana.yml --link es:elasticsearch --name kb -p 80:5601 docker.elastic.co/kibana/kibana:5.5.2
 ```
 
 ## Follow logs
