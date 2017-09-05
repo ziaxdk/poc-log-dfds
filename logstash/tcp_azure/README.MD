@@ -5,7 +5,7 @@
 ### udp.conf local->forwarder
 
 ```
-$ docker run -v //E/src/poc-log-dfds/logstash/udp/multiple/pipeline_1/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls-tcp_1 --rm -it --link ls-tcp_2:tcp-in-ls -p 8080:8080/udp docker.elastic.co/logstash/logstash:5.5.2
+$ docker run -v //C/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_1/:/usr/share/logstash/pipeline/ -v //C/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls-tcp_1 --rm -it docker.elastic.co/logstash/logstash:5.5.2
 ```
 
 ### udp.conf forwarder->elasticsearch
