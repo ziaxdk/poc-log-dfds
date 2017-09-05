@@ -1,5 +1,5 @@
 server.name: test
-server.host: "poc-log-dfds.northeurope.cloudapp.azure.com"
+server.host: "0.0.0.0"
 elasticsearch.url: http://elasticsearch:9200
 xpack.monitoring.ui.container.elasticsearch.enabled: true
 xpack.monitoring.enabled: true
