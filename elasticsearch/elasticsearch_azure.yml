@@ -1,7 +1,7 @@
 cluster.name: "cluster-test"
 node.name: "test"
-network.host: _local_
-http.host: _local_
+network.host: ::0
+http.host: ::0
 # transport.host: 127.0.0.1
 
 # minimum_master_nodes need to be explicitly set when bound on a public IP
