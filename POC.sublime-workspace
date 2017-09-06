@@ -117,28 +117,37 @@
 	"expanded_folders":
 	[
 		"/E/src/poc-log-dfds",
-		"/E/src/poc-log-dfds/kibana/settings",
 		"/E/src/poc-log-dfds/logstash",
 		"/E/src/poc-log-dfds/logstash/tcp_azure",
-		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple"
+		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_1",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_2",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/single_w_template",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/single_w_template/pipeline"
 	],
 	"file_history":
 	[
+		"/E/src/poc-log-dfds/README.MD",
 		"/E/src/poc-log-dfds/logstash/logstash.yml",
-		"/E/src/poc-log-dfds/elasticsearch/elasticsearch_azure.yml",
-		"/E/src/poc-log-dfds/kibana/settings/kibana.yml",
-		"/E/src/poc-log-dfds/kibana/settings/kibana_azure.yml",
 		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_1/tcp_1.conf",
-		"/E/src/poc-log-dfds/logstash/tcp_azure/README.MD",
-		"/E/src/poc-log-dfds/logstash/tcpazure/README.MD",
-		"/E/src/poc-log-dfds/logstash/tcpazure/config/logstash.yml",
+		"/C/Users/keols/Downloads/export.json",
+		"/C/Users/keols/Downloads/export (1).json",
 		"/E/src/poc-log-dfds/logstash/udp/multiple/pipeline_1/tcp_1.conf",
 		"/E/src/poc-log-dfds/logstash/README.MD",
+		"/E/src/poc-log-dfds/elasticsearch/elasticsearch_azure.yml",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/README.MD",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_2/tcp_2.conf",
+		"/E/src/poc-log-dfds/dotnet/dotnet.csproj",
+		"/E/src/poc-log-dfds/dotnet/Program.cs",
+		"/C/Users/keols/Desktop/DOC.txt",
+		"/E/src/poc-log-dfds/elasticsearch/README.MD",
+		"/E/src/poc-log-dfds/kibana/settings/kibana.yml",
+		"/E/src/poc-log-dfds/kibana/settings/kibana_azure.yml",
+		"/E/src/poc-log-dfds/logstash/tcpazure/README.MD",
+		"/E/src/poc-log-dfds/logstash/tcpazure/config/logstash.yml",
 		"/E/src/poc-log-dfds/logstash/tcp_azure/config/logstash.yml",
 		"/E/src/poc-log-dfds/kibana/README.MD",
-		"/E/src/poc-log-dfds/elasticsearch/README.MD",
 		"/E/src/poc-log-dfds/elasticsearch/elasticsearch.yml",
-		"/C/Users/keols/Desktop/DOC.txt",
 		"/E/src/es/logstash/udp/multiple/pipeline_1/tcp_1.conf",
 		"/E/src/es/logstash/README.MD",
 		"/E/src/es/logstash/udp/multiple/pipeline_2/tcp_2.conf",
@@ -245,17 +254,11 @@
 		"/E/src/vue/webpack/.postcssrc.js",
 		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/lodash.isequal/README.md",
 		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/lodash.isequal/index.js",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/lodash.isequal/package.json",
-		"/E/src/index.js",
-		"/E/src/ng2test/src/app/ngmodeltest2/ngmodeltest2.component.html",
-		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/gulpfile.js",
-		"/E/src/ng2test/src/app/ngmodeltest2/ngmodeltest2.component.ts",
-		"/E/src/vue/webpack/package.json",
-		"/E/src/vue/raw/index.html"
+		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/node_modules/lodash.isequal/package.json"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -269,6 +272,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ls-tcp_",
 			"true",
 			"//C",
 			"/usr/share/logstash/",

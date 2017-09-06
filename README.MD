@@ -24,3 +24,7 @@ $ docker run -v //home/keols/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_2
 $ docker run -v //E/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_1/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls1 -p 9000:9000/udp --rm -it docker.elastic.co/logstash/logstash:5.5.2
 $ run app.exe
 ```
+
+# TODO
+
+Create visualization of logger (3 types)
