@@ -5,3 +5,5 @@ xpack.monitoring.enabled: false
 xpack.monitoring.elasticsearch.url: "http://elasticsearch:9200"
 xpack.monitoring.elasticsearch.username: ""
 xpack.monitoring.elasticsearch.password: ""
+queue.type: persisted
+path.queue: /usr/share/logstash/data/queue/

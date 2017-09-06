@@ -16,7 +16,9 @@ namespace MostDummiestAppEver
 {
     class Program
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof(Program));
+        private static readonly string[] Apps = { "SeabookWeb", "Phoenix", "Seabook" };
+        //private static readonly ILog Log = LogManager.GetLogger(typeof(Program));
+        private static ILog Log => LogManager.GetLogger(Apps[new Random().Next(0, Apps.Length)]);
 
         static void Main(string[] args)
         {
