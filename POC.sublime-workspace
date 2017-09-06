@@ -117,19 +117,26 @@
 	"expanded_folders":
 	[
 		"/E/src/poc-log-dfds",
+		"/E/src/poc-log-dfds/kibana/settings",
 		"/E/src/poc-log-dfds/logstash",
-		"/E/src/poc-log-dfds/logstash/heartbeat/pipeline",
-		"/E/src/poc-log-dfds/logstash/udp",
-		"/E/src/poc-log-dfds/logstash/udp/multiple",
-		"/E/src/poc-log-dfds/logstash/udp/multiple/pipeline_1"
+		"/E/src/poc-log-dfds/logstash/tcp_azure",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple"
 	],
 	"file_history":
 	[
-		"/E/src/poc-log-dfds/elasticsearch/README.MD",
 		"/E/src/poc-log-dfds/logstash/logstash.yml",
+		"/E/src/poc-log-dfds/elasticsearch/elasticsearch_azure.yml",
 		"/E/src/poc-log-dfds/kibana/settings/kibana.yml",
-		"/E/src/poc-log-dfds/kibana/README.MD",
+		"/E/src/poc-log-dfds/kibana/settings/kibana_azure.yml",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_1/tcp_1.conf",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/README.MD",
+		"/E/src/poc-log-dfds/logstash/tcpazure/README.MD",
+		"/E/src/poc-log-dfds/logstash/tcpazure/config/logstash.yml",
+		"/E/src/poc-log-dfds/logstash/udp/multiple/pipeline_1/tcp_1.conf",
 		"/E/src/poc-log-dfds/logstash/README.MD",
+		"/E/src/poc-log-dfds/logstash/tcp_azure/config/logstash.yml",
+		"/E/src/poc-log-dfds/kibana/README.MD",
+		"/E/src/poc-log-dfds/elasticsearch/README.MD",
 		"/E/src/poc-log-dfds/elasticsearch/elasticsearch.yml",
 		"/C/Users/keols/Desktop/DOC.txt",
 		"/E/src/es/logstash/udp/multiple/pipeline_1/tcp_1.conf",
@@ -244,19 +251,11 @@
 		"/E/src/SeabookWebServices/Dfds.SeaBookWeb.Web/gulpfile.js",
 		"/E/src/ng2test/src/app/ngmodeltest2/ngmodeltest2.component.ts",
 		"/E/src/vue/webpack/package.json",
-		"/E/src/vue/raw/index.html",
-		"/E/src/vue/raw/package.json",
-		"/E/src/ng2test/src/app/app.module.ts",
-		"/E/src/ng2test/src/index.html",
-		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengerItemComponent.html",
-		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersComponent.html",
-		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersComponent.scss",
-		"/C/Users/keols/Desktop/SeabookWeb/src/components/amendment/passengers/passengersService.ts",
-		"/C/Users/keols/Downloads/Digitally Imported - Favorites.pls"
+		"/E/src/vue/raw/index.html"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -270,6 +269,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"true",
+			"//C",
+			"/usr/share/logstash/",
+			"\\",
+			"tcp_azure",
+			"\\",
+			"/udp/",
+			"E/src",
+			"_local_",
+			"_site_",
 			"\\",
 			"false",
 			"\\",
@@ -390,7 +399,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.0,
+	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

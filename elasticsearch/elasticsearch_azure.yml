@@ -8,4 +8,4 @@ network.host: "0.0.0.0"
 # Details: https://github.com/elastic/elasticsearch/pull/17288
 discovery.zen.minimum_master_nodes: 1
 xpack.security.enabled: false
-xpack.monitoring.enabled: true
+xpack.monitoring.enabled: false

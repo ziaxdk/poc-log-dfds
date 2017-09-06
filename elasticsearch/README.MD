@@ -9,7 +9,7 @@ $ docker run -d -p 9200:9200 -v //E/src/poc-log-dfds/elasticsearch/elasticsearch
 ### Azure
 
 ```
-$ sudo sysctl -w vm.max_map_count=262144
+$ sudo sysctl -w vm.max_map_count=262144 # or add to /etc/sysctl.conf
 $ docker run -d -p 9200:9200 -v /home/keols/poc-log-dfds/elasticsearch/elasticsearch_azure.yml:/usr/share/elasticsearch/config/elasticsearch.yml --name es docker.elastic.co/elasticsearch/elasticsearch:5.5.2
 ```
 
