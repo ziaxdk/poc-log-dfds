@@ -8,6 +8,10 @@
 $ docker run -v //C/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_1/:/usr/share/logstash/pipeline/ -v //C/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls-tcp_1 --rm -it docker.elastic.co/logstash/logstash:5.5.2
 ```
 
+```
+$ docker run -v //E/src/poc-log-dfds/logstash/tcp_azure/multiple/pipeline_1/:/usr/share/logstash/pipeline/ -v //E/src/poc-log-dfds/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml --name ls-tcp_1 --rm -it docker.elastic.co/logstash/logstash:5.5.2
+```
+
 ### udp.conf forwarder->elasticsearch
 
 ```

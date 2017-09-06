@@ -1,7 +1,7 @@
 http.host: "0.0.0.0"
 node.name: "ls"
 path.config: /usr/share/logstash/pipeline
-xpack.monitoring.enabled: false
+xpack.monitoring.enabled: true
 xpack.monitoring.elasticsearch.url: "http://elasticsearch:9200"
 xpack.monitoring.elasticsearch.username: ""
 xpack.monitoring.elasticsearch.password: ""
